@@ -16,8 +16,8 @@ cd osquery-injection/
 docker-compose up
 ```
 
-- Testcase: http://localhost:35275/?username=systemd-network
-- Dev Version: http://localhost:35275/dev?q=select%20*%20from%20users
+- Testcase: http://{docker_ip_address}:35275/?username=systemd-network
+- Dev Version: http://{docker_ip_address}:35275/dev?q=select * from users;
 
 ---
 2018 - [Omer Citak](https://omercitak.com/), [Netsparker](https://netsparker.com/)
